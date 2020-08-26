@@ -99,7 +99,7 @@ resource "aws_iam_role_policy" "supplicant_policy" {
 
 module "lambda_function_archive_builder" {
   source  = "opendevsecops/archive-builder/local"
-  version = "1.0.0"
+  version = "3.0.0"
 
   name   = local.name
   prefix = "lambda-function-"

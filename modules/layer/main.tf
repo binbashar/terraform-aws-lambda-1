@@ -14,7 +14,7 @@ locals {
 
 module "lambda_layer_archive_builder" {
   source  = "opendevsecops/archive-builder/local"
-  version = "1.0.0"
+  version = "3.0.0"
 
   name   = local.name
   prefix = "lambda-layer-"

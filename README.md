@@ -50,7 +50,7 @@ EOF
 
   tags = local.tags
 
-  module_depends_on = [
+  depends_on = [
       aws_secretsmanager_secret.acme
   ]
 }
